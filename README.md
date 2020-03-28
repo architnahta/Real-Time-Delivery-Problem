@@ -6,7 +6,7 @@ One of the main goals of this project is to improve the performance of our exist
 
 ---
 
-### Comparison
+### Comparison : 
 |S No.|	Number of Addresses	|Queue Cost	|This Method’s Cost|
 |-------|-----------------|--------|----------|
 |1	|1	|0	|0
@@ -17,3 +17,12 @@ One of the main goals of this project is to improve the performance of our exist
 |6	|100	|500.201	|124.585869|
 |7	|150	|803.706	|372.977966|
 |8	|200	|1921.47	|474.072662|
+
+---
+### Time Complexity :
+The other ways to find the optimal solution are Branch and Bound, Dynamic Programming etc.
+Our method has an advantage over them because of its lesser time complexity. That is O(n2)
+Since,Finding the minimum cost in from one location to another takes a complexity of O(n).
+Finding the minimum cost for locations from n location to another n locations takes O(n*n) unit of time.
+Whereas,  #### Branch & Bound has a time complexity of O( (n-1)! ).
+          #### Dynamic Programming has a time complexity of O(n2* 2n).
