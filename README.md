@@ -1,12 +1,10 @@
 # Real-Time-Delivery-Problem
----
 Delivery Problem and its Solution Using Greedy Algorithm.
 Real time delivery problem comes with the problem of cost efficiency. Manually, we can find the shortest path between a maximum of 8-10 locations. But electronic computation is required for more, say for 100 addresses , we have 100! ways to travel all the addresses.
 
 One of the main goals of this project is to improve the performance of our existing TSP algorithm. Generally, the best approach for improving the performance is improvising time to reach any node in computation. The new strategy is to use a greedy method for edge selection, rather than trying all possible path permutations.
 
 ---
-
 ### Comparison : 
 |S No.|	Number of Addresses	|Queue Cost	|This Method’s Cost|
 |-------|-----------------|--------|----------|
@@ -27,3 +25,10 @@ Since,Finding the minimum cost in from one location to another takes a complexit
 Finding the minimum cost for locations from n location to another n locations takes O(n*n) unit of time.
 Whereas,  **Branch & Bound has a time complexity of O( (n-1)! ).
           Dynamic Programming has a time complexity of O(n2* 2n).**
+---
+### Concepts Used : 
+**Language :**  C/C++
+**Functions:** To be called for the different cost calculations and path determination.
+**Array:**  Used to store path details and cost matrix.
+**Control Flow:** Manipulations of seek positions every time to go to desired position. 
+
