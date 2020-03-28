@@ -24,5 +24,5 @@ The other ways to find the optimal solution are Branch and Bound, Dynamic Progra
 Our method has an advantage over them because of its lesser time complexity. That is O(n2)
 Since,Finding the minimum cost in from one location to another takes a complexity of O(n).
 Finding the minimum cost for locations from n location to another n locations takes O(n*n) unit of time.
-Whereas,  #### Branch & Bound has a time complexity of O( (n-1)! ).
-          #### Dynamic Programming has a time complexity of O(n2* 2n).
+Whereas,  **Branch & Bound has a time complexity of O( (n-1)! ).
+          Dynamic Programming has a time complexity of O(n2* 2n).**
