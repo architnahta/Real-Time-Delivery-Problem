@@ -4,6 +4,8 @@ Real time delivery problem comes with the problem of cost efficiency. Manually, 
 
 One of the main goals of this project is to improve the performance of our existing TSP algorithm. Generally, the best approach for improving the performance is improvising time to reach any node in computation. The new strategy is to use a greedy method for edge selection, rather than trying all possible path permutations.
 
+---
+
 ### Comparison
 |S No.|	Number of Addresses	|Queue Cost	|This Method’s Cost|
 |-------|-----------------|--------|----------|
